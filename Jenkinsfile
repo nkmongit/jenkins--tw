@@ -9,9 +9,8 @@ pipeline {
 
     stage('Install Node') {
       steps {
-        sh '''apt-get install node
-
-cat node --version'''
+        sh 'apt-get install node'
+        sh 'cat node --version'
       }
     }
 
