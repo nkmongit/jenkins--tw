@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ("Chceking In") {
             steps {
-                'sh "echo 'Checking In'"'
+                sh 'echo "Checking In"'
             }
         }
     }    
