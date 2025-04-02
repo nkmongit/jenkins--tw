@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ("Chceking In") {
+        stage ("Checking In") {
             steps {
                 sh 'echo "Checking In"'
             }
