@@ -7,5 +7,13 @@ pipeline {
       }
     }
 
+    stage('Install Node') {
+      steps {
+        sh '''sudo apt-get install node
+
+cat node --version'''
+      }
+    }
+
   }
 }
